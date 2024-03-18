@@ -2,7 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, copy the .env.example file and raname it to .env
+
+Second, run the JSON Server
+
+```bash
+npm run jsonServer
+```
+
+Third, run the development server:
 
 ```bash
 npm run dev

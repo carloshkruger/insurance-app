@@ -1,0 +1,30 @@
+.container {
+  padding: 1.5rem;
+  background: var(--color-gray-700);
+  border-radius: var(--radii-md);
+  transition: background 0.2s;
+}
+
+.container:hover {
+  background: var(--color-gray-600);
+}
+
+.title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+}
+
+.description {
+  font-size: var(--font-size-md);
+  padding: 1.25rem 0 1rem 0;
+}
+
+.requirements {
+  font-size: var(--font-size-md);
+  padding-bottom: 1rem;
+}
+
+.price {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-lg);
+}
